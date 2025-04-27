@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Fondo principal */
+body {
+    background: linear-gradient(to bottom, #F6FFF8, #EAF4F4);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #CCE3DE; /* Cambiado a la paleta */
+    padding: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #5F939A; /* Color de texto contrastante */
+}
+
+/* Títulos */
+h1, h2 {
+    margin: 0;
+}
+
+/* Navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: #EAF4F4; /* Cambiado a la paleta */
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #CCE3DE; /* Cambiado a la paleta */
+    color: #5F939A; /* Color de texto contrastante */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #A4C3B2; /* Color de hover */
+}
+
+/* Centrado de contenido */
+.agrupar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+/* Secciones y aside */
+section, aside {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #F6FFF8; /* Cambiado a la paleta */
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #EAF4F4; /* Cambiado a la paleta */
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer li {
+    list-style: none;
+}
+
+/* Enlace a los desarrolladores */
+footer a {
+    color: #5F939A; /* Color de texto */
+    text-decoration: underline; /* Subrayado */
+}
+
+/* Imágenes interactivas */
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho */
+    height: auto; /* Mantiene la proporción */
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Estilo del mapa */
+.map-container {
+    width: 100%; /* Adaptar al contenedor */
+    max-width: 800px; /* Limitar el ancho máximo del mapa */
+    margin: auto; /* Centrar el mapa */
+    padding: 20px; /* Espaciado alrededor del mapa */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Estilo del texto del mapa */
+.map-text {
+    font-size: 1.2em;
+    color: #6A5B8A; /* Color del texto especificado */
+    margin-top: 15px; /* Espaciado superior */
+}
+
+ul {
+    list-style-type: disc; /* círculo sólido */
+    padding-left: 20px;
+  }
